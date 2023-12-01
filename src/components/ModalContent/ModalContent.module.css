@@ -1,0 +1,113 @@
+/* ///////////////////////////////// */
+.carImg {
+  border: 1px solid red;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  height: 248px;
+  max-height: 100%;
+}
+.generalInfo {
+  padding-bottom: 24px;
+}
+.generalInfo__title {
+  padding: 14px 0 8px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.generalInfo__list {
+  display: flex;
+  width: 287px;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.generalInfo__list li {
+  color: rgba(18, 20, 23, 0.5);
+  font-size: 12px;
+  line-height: 1.5em;
+  margin-bottom: 4px;
+}
+.generalInfo__list li::after {
+  content: "";
+  width: 1px;
+  height: 16px;
+  margin: 0 6px;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: rgba(18, 20, 23, 0.1);
+}
+.generalInfo__list li:last-child::after {
+  content: none;
+}
+.generalInfo__description {
+  font-size: 14px;
+  line-height: 1.42em;
+  color: #121417;
+  padding-top: 12px;
+}
+/* ************* */
+.accesories {
+  padding-bottom: 24px;
+}
+.accesories__title {
+  color: #121417;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.42em;
+  padding-bottom: 8px;
+}
+.accesories__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.accesories__list li {
+  color: rgba(18, 20, 23, 0.5);
+  font-size: 12px;
+  line-height: 1.5em;
+}
+.accesories__list li::after {
+  content: "";
+  width: 1px;
+  height: 16px;
+  margin: 0 6px;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: rgba(18, 20, 23, 0.1);
+}
+.accesories__list li:last-child::after {
+  content: none;
+}
+/* ************* */
+.conditions {
+  padding-bottom: 24px;
+}
+.condition__header {
+  color: #121417;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.42em;
+  padding-bottom: 8px;
+}
+.condition__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  width: 420px;
+  max-width: 100%;
+}
+.condition__list li {
+  color: #363535;
+
+  font-size: 12px;
+  line-height: 1.5em;
+  letter-spacing: -0.24px;
+
+  justify-content: center;
+  align-items: center;
+  padding: 7px 14px;
+  background-color: #f9f9f9;
+  border-radius: 35px;
+}

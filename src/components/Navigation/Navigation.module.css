@@ -1,0 +1,29 @@
+.header {
+  /* outline: 1px solid red; */
+  /* max-width: 1200px; */
+  padding: 0 15px;
+  border-bottom: 2px solid grey;
+}
+.navigation {
+  /* outline: 2px solid green; */
+}
+.nav_list {
+  display: flex;
+  gap: 25px;
+}
+.list_element {
+  /* outline: 2px solid teal; */
+  padding: 5px 15px;
+}
+.element_text {
+  padding: 0 5px;
+  color: #121417;
+  font-weight: 700;
+  font-size: 18px;
+}
+.element_text:hover {
+  border-bottom: 2px solid red;
+}
+.element_text:active {
+  border-bottom: 2px solid red;
+}

@@ -1,0 +1,57 @@
+.bg_window {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* owerflow: hidden; */
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.modal {
+  position: absolute;
+  width: 541px;
+  max-width: 100%;
+  height: 752px;
+  max-height: 100%;
+  background-color: #fff;
+  border-radius: 24px;
+  padding: 40px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.close_btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  margin: 0;
+  padding: 6px;
+
+  border: none;
+  outline: none;
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+.close_btn:active,
+.close_btn:focus {
+  border: none;
+  outline: none;
+}
+.close_btn span {
+  width: 12px;
+  height: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn_icon:hover,
+.btn_icon:focus {
+  stroke: antiquewhite;
+}
