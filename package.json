@@ -1,7 +1,8 @@
 {
-  "name": "react_vite",
+  "name": "car_rental_project",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://github.com/ArIonMark1/car_rental_project",
   "type": "module",
   "scripts": {
     "dev": "vite",
