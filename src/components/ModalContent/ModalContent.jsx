@@ -1,4 +1,4 @@
-import css from "./ModalContent.module.css";
+import css from './ModalContent.module.css';
 
 export const ModalContent = () => {
   return (
@@ -47,19 +47,19 @@ export const ModalContent = () => {
         <p className={css.condition__header}>Rental Conditions: </p>
         <ul className={css.condition__list}>
           <li>
-            Minimum age : <span>25</span>
+            Minimum age : <span className={css.element_value}>25</span>
           </li>
           <li>Valid driver’s license</li>
           <li>Security deposite required </li>
           <li>
-            Mileage: <span>5,858</span>
+            Mileage: <span className={css.element_value}>5,858</span>
           </li>
           <li>
-            Price: <span>40$</span>
+            Price: <span className={css.element_value}>40$</span>
           </li>
         </ul>
       </div>
-      <button className="rent__button">Rental card</button>
+      <button className={css.rent__button}>Rental card</button>
     </div>
   );
 };

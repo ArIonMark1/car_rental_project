@@ -31,7 +31,7 @@
   margin-bottom: 4px;
 }
 .generalInfo__list li::after {
-  content: "";
+  content: '';
   width: 1px;
   height: 16px;
   margin: 0 6px;
@@ -69,7 +69,7 @@
   line-height: 1.5em;
 }
 .accesories__list li::after {
-  content: "";
+  content: '';
   width: 1px;
   height: 16px;
   margin: 0 6px;
@@ -110,4 +110,20 @@
   padding: 7px 14px;
   background-color: #f9f9f9;
   border-radius: 35px;
+}
+.condition__list .element_value {
+  color: #3470ff;
+  font-weight: 600;
+}
+.rent__button {
+  display: inline-flex;
+  padding: 12px 50px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background: #3470ff;
+
+  color: var(--White, #fff);
+  font-weight: 500;
+  line-height: 1.42em;
 }
