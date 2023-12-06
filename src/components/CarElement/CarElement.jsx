@@ -1,14 +1,21 @@
-export const CarElement = () => {
+import css from './CarElement.module.css';
+
+const CarElement = () => {
   return (
     <>
-      <div>
-        <img href="#" alt="car" />
-        <h2>Machine Name, year cost</h2>
-
-        <p>Kiev | Ukraine | Luxury Car Rentals | Enclave | Power liftgate...</p>
+      <div className={css.machineCard}>
+        <img className="cardImage" href="#" alt="car" />
+        <div className="cardContent">
+          <h2 className="contentTitle">Machine Name, year cost</h2>
+          <p className="contentData">
+            Kiev | Ukraine | Luxury Car Rentals | Enclave | Power liftgate...
+          </p>
+        </div>
 
         <button>Learn more</button>
       </div>
     </>
   );
 };
+
+export default CarElement;

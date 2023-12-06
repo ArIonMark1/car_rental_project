@@ -3,8 +3,8 @@ import css from './ModalContent.module.css';
 export const ModalContent = () => {
   return (
     <div className="modalContent">
-      <div className={css.carImg}>
-        <img src="#" alt="car" />
+      <div className={css.containerImg}>
+        <img className={css.carImg} src="./src/img/car1.jpg" alt="car1" />
       </div>
       <div className={css.generalInfo}>
         <p className={css.generalInfo__title}>
