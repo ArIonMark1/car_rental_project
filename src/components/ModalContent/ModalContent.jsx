@@ -4,7 +4,13 @@ export const ModalContent = () => {
   return (
     <div className="modalContent">
       <div className={css.containerImg}>
-        <img className={css.carImg} src="./src/img/car1.jpg" alt="car1" />
+        {/* <img className={css.carImg} src="./src/img/car1.jpg" alt="car1" /> */}
+        <img className={css.carImg} src="../../img/car1.jpg" alt="car1" />
+        <img
+          className={css.carImg}
+          src="./car_rental_project/src/img/car1.jpg"
+          alt="car1"
+        />
       </div>
       <div className={css.generalInfo}>
         <p className={css.generalInfo__title}>
