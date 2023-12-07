@@ -4,8 +4,7 @@ import SvgIcons from '../SvgIcons/SvgIcons';
 import { ModalContent } from '../ModalContent/ModalContent';
 import { useEffect } from 'react';
 
-export const Modal = ({ isOpen, closeFunc }) => {
-  if (!isOpen) return null;
+export const Modal = ({ closeFunc }) => {
   const handleClose = (evt) => {
     if (evt.target.className === css.bg_window) {
       closeFunc();

@@ -15,7 +15,7 @@ const CatalogPage = () => {
       <button onClick={handleVisibleModal}>Open Modal</button>
       <CatalogFilter />
       <CatalogList />
-      <Modal isOpen={open} closeFunc={handleVisibleModal} />
+      {open && <Modal closeFunc={handleVisibleModal} />}
     </>
   );
 };
